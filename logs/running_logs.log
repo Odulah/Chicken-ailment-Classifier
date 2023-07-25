@@ -44,3 +44,12 @@ Source-Age: 0
 [2023-07-26 03:25:42,085:INFO:common:created directory at: artifacts]
 [2023-07-26 03:25:42,087:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
 [2023-07-26 03:25:42,090:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-07-26 03:34:11,149: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-26 03:34:11,157: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-26 03:34:11,165: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-26 03:34:11,167: INFO: common: created directory at: artifacts]
+[2023-07-26 03:34:11,168: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-26 03:34:11,170: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2023-07-26 03:34:11,913: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
