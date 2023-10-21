@@ -1,8 +1,8 @@
-[2023-07-26 03:24:27,607:INFO:common:yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:24:27,622:INFO:common:yaml file: params.yaml loaded successfully]
-[2023-07-26 03:24:27,626:INFO:common:created directory at: artifacts]
-[2023-07-26 03:24:27,630:INFO:common:created directory at: artifacts/data_ingestion]
-[2023-07-26 03:24:31,868:INFO:1170291011:artifacts/data_ingestion/data.zip download! with following info: 
+[2023-10-21 17:29:20,155: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 17:29:20,176: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 17:29:20,181: INFO: common: created directory at: artifacts]
+[2023-10-21 17:29:20,183: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-21 17:29:26,871: INFO: 1170291011: artifacts/data_ingestion/data.zip download! with following info: 
 Connection: close
 Content-Length: 11616915
 Cache-Control: max-age=300
@@ -13,314 +13,44 @@ Strict-Transport-Security: max-age=31536000
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: 8286:16EC3E:D4CBC:12140F:64C03B21
+X-GitHub-Request-Id: 0A1C:896B:6D12DE:86B06C:6533BD19
 Accept-Ranges: bytes
-Date: Tue, 25 Jul 2023 21:54:30 GMT
+Date: Sat, 21 Oct 2023 11:59:24 GMT
 Via: 1.1 varnish
-X-Served-By: cache-ccu830043-CCU
-X-Cache: HIT
+X-Served-By: cache-maa10223-MAA
+X-Cache: MISS
 X-Cache-Hits: 0
-X-Timer: S1690322070.859146,VS0,VE357
+X-Timer: S1697889561.834796,VS0,VE3243
 Vary: Authorization,Accept-Encoding,Origin
 Access-Control-Allow-Origin: *
 Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: e7dc3488a4777cf928d0650dd224f12f044ce014
-Expires: Tue, 25 Jul 2023 21:59:30 GMT
-Source-Age: 0
+X-Fastly-Request-ID: f4888f9ddc23fec151289065892f5ffab67c6d4b
+Expires: Sat, 21 Oct 2023 12:04:24 GMT
+Source-Age: 2
 
 ]
-[2023-07-26 03:25:00,911:INFO:common:yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:25:00,919:INFO:common:yaml file: params.yaml loaded successfully]
-[2023-07-26 03:25:00,922:INFO:common:created directory at: artifacts]
-[2023-07-26 03:25:00,925:INFO:common:created directory at: artifacts/prepare_base_model]
-[2023-07-26 03:25:03,672:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
-[2023-07-26 03:25:16,954:INFO:common:yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:25:16,960:INFO:common:yaml file: params.yaml loaded successfully]
-[2023-07-26 03:25:16,964:INFO:common:created directory at: artifacts]
-[2023-07-26 03:25:16,969:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
-[2023-07-26 03:25:16,973:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
-[2023-07-26 03:25:42,073:INFO:common:yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:25:42,082:INFO:common:yaml file: params.yaml loaded successfully]
-[2023-07-26 03:25:42,085:INFO:common:created directory at: artifacts]
-[2023-07-26 03:25:42,087:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir]
-[2023-07-26 03:25:42,090:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
-[2023-07-26 03:34:11,149: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
-[2023-07-26 03:34:11,157: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:34:11,165: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 03:34:11,167: INFO: common: created directory at: artifacts]
-[2023-07-26 03:34:11,168: INFO: common: created directory at: artifacts/data_ingestion]
-[2023-07-26 03:34:11,170: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
-[2023-07-26 03:34:11,913: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
-
-x==========x]
-[2023-07-26 03:35:51,458: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
-[2023-07-26 03:35:51,465: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:35:51,473: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 03:35:51,474: INFO: common: created directory at: artifacts]
-[2023-07-26 03:35:51,476: INFO: common: created directory at: artifacts/data_ingestion]
-[2023-07-26 03:35:55,078: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
-Connection: close
-Content-Length: 11616915
-Cache-Control: max-age=300
-Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-Content-Type: application/zip
-ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
-Strict-Transport-Security: max-age=31536000
-X-Content-Type-Options: nosniff
-X-Frame-Options: deny
-X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: 8286:16EC3E:D4CBC:12140F:64C03B21
-Accept-Ranges: bytes
-Date: Tue, 25 Jul 2023 22:05:53 GMT
-Via: 1.1 varnish
-X-Served-By: cache-ccu830023-CCU
-X-Cache: HIT
-X-Cache-Hits: 0
-X-Timer: S1690322753.165023,VS0,VE322
-Vary: Authorization,Accept-Encoding,Origin
-Access-Control-Allow-Origin: *
-Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: aa6b3fc3cd54399c9540d386b6d89287982528d4
-Expires: Tue, 25 Jul 2023 22:10:53 GMT
-Source-Age: 0
-
-]
-[2023-07-26 03:35:55,697: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
-
-x==========x]
-[2023-07-26 03:36:18,894: INFO: utils: NumExpr defaulting to 4 threads.]
-[2023-07-26 03:36:20,351: INFO: stage_02_prepare_base_model: *******************]
-[2023-07-26 03:36:20,352: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
-[2023-07-26 03:36:20,359: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:36:20,365: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 03:36:20,366: INFO: common: created directory at: artifacts]
-[2023-07-26 03:36:20,367: INFO: common: created directory at: artifacts/prepare_base_model]
-[2023-07-26 03:36:21,586: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
-[2023-07-26 03:36:22,353: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
-
-x==========x]
-[2023-07-26 03:36:34,642: INFO: utils: NumExpr defaulting to 4 threads.]
-[2023-07-26 03:36:35,763: INFO: stage_03_training: *******************]
-[2023-07-26 03:36:35,764: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
-[2023-07-26 03:36:35,770: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:36:35,775: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 03:36:35,777: INFO: common: created directory at: artifacts]
-[2023-07-26 03:36:35,779: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
-[2023-07-26 03:36:35,780: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
-[2023-07-26 03:36:35,785: INFO: common: created directory at: artifacts\training]
-[2023-07-26 03:38:36,717: INFO: stage_03_training: >>>>>> stage Training completed <<<<<<
-
-x==========x]
-[2023-07-26 03:38:51,596: INFO: utils: NumExpr defaulting to 4 threads.]
-[2023-07-26 03:38:52,714: INFO: stage_04_evaluation: *******************]
-[2023-07-26 03:38:52,714: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
-[2023-07-26 03:38:52,721: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:38:52,726: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 03:38:52,728: INFO: common: created directory at: artifacts]
-[2023-07-26 03:38:52,728: ERROR: stage_04_evaluation: 'ConfigurationManager' object has no attribute 'get_validation_config']
-Traceback (most recent call last):
-  File "C:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 29, in <module>
-    obj.main()
-  File "C:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 17, in main
-    val_config = config.get_validation_config()
-AttributeError: 'ConfigurationManager' object has no attribute 'get_validation_config'
-[2023-07-26 03:41:31,944: INFO: utils: NumExpr defaulting to 4 threads.]
-[2023-07-26 03:41:33,111: INFO: stage_04_evaluation: *******************]
-[2023-07-26 03:41:33,111: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
-[2023-07-26 03:41:33,117: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:41:33,122: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 03:41:33,124: INFO: common: created directory at: artifacts]
-[2023-07-26 03:41:33,125: ERROR: stage_04_evaluation: EvaluationConfig.__init__() got an unexpected keyword argument 'mlflow_uri']
-Traceback (most recent call last):
-  File "C:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 30, in <module>
-    obj.main()
-  File "C:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 17, in main
-    eval_config = config.get_evaluation_config()
-  File "c:\users\dell\desktop\projects\chicken-disease-classification-projects-main\src\cnnClassifier\config\configuration.py", line 107, in get_evaluation_config
-    eval_config = EvaluationConfig(
-TypeError: EvaluationConfig.__init__() got an unexpected keyword argument 'mlflow_uri'
-[2023-07-26 03:43:29,526: INFO: utils: NumExpr defaulting to 4 threads.]
-[2023-07-26 03:43:30,680: INFO: stage_04_evaluation: *******************]
-[2023-07-26 03:43:30,680: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
-[2023-07-26 03:43:30,687: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:43:30,692: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 03:43:30,693: INFO: common: created directory at: artifacts]
-[2023-07-26 03:43:30,694: ERROR: stage_04_evaluation: EvaluationConfig.__init__() got an unexpected keyword argument 'mlflow_uri']
-Traceback (most recent call last):
-  File "c:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 30, in <module>
-    obj.main()
-  File "c:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 17, in main
-    eval_config=config.get_evaluation_config()
-  File "c:\users\dell\desktop\projects\chicken-disease-classification-projects-main\src\cnnClassifier\config\configuration.py", line 107, in get_evaluation_config
-    eval_config = EvaluationConfig(
-TypeError: EvaluationConfig.__init__() got an unexpected keyword argument 'mlflow_uri'
-[2023-07-26 03:45:04,244: INFO: utils: NumExpr defaulting to 4 threads.]
-[2023-07-26 03:45:05,413: INFO: stage_04_evaluation: *******************]
-[2023-07-26 03:45:05,413: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
-[2023-07-26 03:45:05,418: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:45:05,424: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 03:45:05,425: INFO: common: created directory at: artifacts]
-[2023-07-26 03:45:05,425: ERROR: stage_04_evaluation: 'ConfigurationManager' object has no attribute 'get_validation_config']
-Traceback (most recent call last):
-  File "C:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 29, in <module>
-    obj.main()
-  File "C:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 17, in main
-    val_config = config.get_validation_config()
-AttributeError: 'ConfigurationManager' object has no attribute 'get_validation_config'
-[2023-07-26 03:49:11,629:INFO:common:yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:49:11,646:INFO:common:yaml file: params.yaml loaded successfully]
-[2023-07-26 03:49:11,649:INFO:common:created directory at: artifacts]
-[2023-07-26 03:49:58,347:INFO:common:json file saved at: scores.json]
-[2023-07-26 03:50:14,716: INFO: utils: NumExpr defaulting to 4 threads.]
-[2023-07-26 03:50:16,275: INFO: stage_04_evaluation: *******************]
-[2023-07-26 03:50:16,276: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
-[2023-07-26 03:50:16,283: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:50:16,290: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 03:50:16,293: INFO: common: created directory at: artifacts]
-[2023-07-26 03:50:16,293: ERROR: stage_04_evaluation: 'ConfigurationManager' object has no attribute 'get_validation_config']
-Traceback (most recent call last):
-  File "C:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 29, in <module>
-    obj.main()
-  File "C:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 17, in main
-    val_config = config.get_validation_config()
-AttributeError: 'ConfigurationManager' object has no attribute 'get_validation_config'
-[2023-07-26 03:53:16,382: INFO: utils: NumExpr defaulting to 4 threads.]
-[2023-07-26 03:53:17,826: INFO: stage_04_evaluation: *******************]
-[2023-07-26 03:53:17,827: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
-[2023-07-26 03:53:17,842: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:53:17,851: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 03:53:17,853: INFO: common: created directory at: artifacts]
-[2023-07-26 03:53:17,853: ERROR: stage_04_evaluation: EvaluationConfig.__init__() got an unexpected keyword argument 'mlflow_uri']
-Traceback (most recent call last):
-  File "c:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 29, in <module>
-    obj.main()
-  File "c:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 17, in main
-    eval_config = config.get_evaluation_config()
-  File "c:\users\dell\desktop\projects\chicken-disease-classification-projects-main\src\cnnClassifier\config\configuration.py", line 107, in get_evaluation_config
-    eval_config = EvaluationConfig(
-TypeError: EvaluationConfig.__init__() got an unexpected keyword argument 'mlflow_uri'
-[2023-07-26 03:55:46,500: INFO: utils: NumExpr defaulting to 4 threads.]
-[2023-07-26 03:55:47,845: INFO: stage_04_evaluation: *******************]
-[2023-07-26 03:55:47,845: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
-[2023-07-26 03:55:47,853: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:55:47,866: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 03:55:47,868: INFO: common: created directory at: artifacts]
-[2023-07-26 03:55:47,868: ERROR: stage_04_evaluation: EvaluationConfig.__init__() got an unexpected keyword argument 'mlflow_uri']
-Traceback (most recent call last):
-  File "C:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 28, in <module>
-    obj.main()
-  File "C:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 17, in main
-    eval_config = config.get_evaluation_config()
-  File "c:\users\dell\desktop\projects\chicken-disease-classification-projects-main\src\cnnClassifier\config\configuration.py", line 107, in get_evaluation_config
-    eval_config = EvaluationConfig(
-TypeError: EvaluationConfig.__init__() got an unexpected keyword argument 'mlflow_uri'
-[2023-07-26 03:56:06,280: INFO: utils: NumExpr defaulting to 4 threads.]
-[2023-07-26 03:56:07,289: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
-[2023-07-26 03:56:07,297: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:56:07,301: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 03:56:07,302: INFO: common: created directory at: artifacts]
-[2023-07-26 03:56:07,303: INFO: common: created directory at: artifacts/data_ingestion]
-[2023-07-26 03:56:07,304: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
-[2023-07-26 03:56:07,841: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
-
-x==========x]
-[2023-07-26 03:56:07,843: INFO: main: *******************]
-[2023-07-26 03:56:07,845: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
-[2023-07-26 03:56:07,865: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:56:07,871: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 03:56:07,878: INFO: common: created directory at: artifacts]
-[2023-07-26 03:56:07,880: INFO: common: created directory at: artifacts/prepare_base_model]
-[2023-07-26 03:56:09,043: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
-[2023-07-26 03:56:10,246: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
-
-x==========x]
-[2023-07-26 03:56:10,247: INFO: main: *******************]
-[2023-07-26 03:56:10,248: INFO: main: >>>>>> stage Training started <<<<<<]
-[2023-07-26 03:56:10,261: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:56:10,266: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 03:56:10,267: INFO: common: created directory at: artifacts]
-[2023-07-26 03:56:10,269: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
-[2023-07-26 03:56:10,271: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
-[2023-07-26 03:56:10,278: INFO: common: created directory at: artifacts\training]
-[2023-07-26 03:58:10,670: INFO: main: >>>>>> stage Training completed <<<<<<
-
-x==========x]
-[2023-07-26 03:58:10,917: INFO: main: *******************]
-[2023-07-26 03:58:10,918: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
-[2023-07-26 03:58:10,943: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 03:58:10,954: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 03:58:10,962: INFO: common: created directory at: artifacts]
-[2023-07-26 03:58:10,965: ERROR: main: EvaluationConfig.__init__() got an unexpected keyword argument 'mlflow_uri']
-Traceback (most recent call last):
-  File "C:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\main.py", line 56, in <module>
-    model_evalution.main()
-  File "c:\users\dell\desktop\projects\chicken-disease-classification-projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 17, in main
-    eval_config = config.get_evaluation_config()
-  File "c:\users\dell\desktop\projects\chicken-disease-classification-projects-main\src\cnnClassifier\config\configuration.py", line 107, in get_evaluation_config
-    eval_config = EvaluationConfig(
-TypeError: EvaluationConfig.__init__() got an unexpected keyword argument 'mlflow_uri'
-[2023-07-26 04:02:02,045: INFO: utils: NumExpr defaulting to 4 threads.]
-[2023-07-26 04:02:03,505: INFO: stage_04_evaluation: *******************]
-[2023-07-26 04:02:03,505: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
-[2023-07-26 04:02:03,514: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 04:02:03,517: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 04:02:03,518: INFO: common: created directory at: artifacts]
-[2023-07-26 04:02:03,518: ERROR: stage_04_evaluation: EvaluationConfig.__init__() got an unexpected keyword argument 'mlflow_uri']
-Traceback (most recent call last):
-  File "c:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 30, in <module>
-    obj.main()
-  File "c:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 17, in main
-    eval_config = config.get_evaluation_config()
-  File "c:\users\dell\desktop\projects\chicken-disease-classification-projects-main\src\cnnClassifier\config\configuration.py", line 105, in get_evaluation_config
-    eval_config = EvaluationConfig(
-TypeError: EvaluationConfig.__init__() got an unexpected keyword argument 'mlflow_uri'
-[2023-07-26 04:03:39,302: INFO: utils: NumExpr defaulting to 4 threads.]
-[2023-07-26 04:03:40,256: INFO: stage_04_evaluation: *******************]
-[2023-07-26 04:03:40,256: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
-[2023-07-26 04:03:40,264: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 04:03:40,268: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 04:03:40,269: INFO: common: created directory at: artifacts]
-[2023-07-26 04:03:40,270: ERROR: stage_04_evaluation: EvaluationConfig.__init__() got an unexpected keyword argument 'mlflow_uri']
-Traceback (most recent call last):
-  File "c:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 30, in <module>
-    obj.main()
-  File "c:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 17, in main
-    eval_config = config.get_evaluation_config()
-  File "c:\users\dell\desktop\projects\chicken-disease-classification-projects-main\src\cnnClassifier\config\configuration.py", line 105, in get_evaluation_config
-    eval_config = EvaluationConfig(
-TypeError: EvaluationConfig.__init__() got an unexpected keyword argument 'mlflow_uri'
-[2023-07-26 04:05:09,818: INFO: utils: NumExpr defaulting to 4 threads.]
-[2023-07-26 04:05:10,770: INFO: stage_04_evaluation: *******************]
-[2023-07-26 04:05:10,770: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
-[2023-07-26 04:05:10,776: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 04:05:10,779: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 04:05:10,779: INFO: common: created directory at: artifacts]
-[2023-07-26 04:05:10,780: ERROR: stage_04_evaluation: EvaluationConfig.__init__() got an unexpected keyword argument 'mlflow_uri']
-Traceback (most recent call last):
-  File "c:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 30, in <module>
-    obj.main()
-  File "c:\Users\DELL\Desktop\PROJECTS\Chicken-Disease-Classification-Projects-main\src\cnnClassifier\pipeline\stage_04_evaluation.py", line 17, in main
-    eval_config = config.get_evaluation_config()
-  File "c:\users\dell\desktop\projects\chicken-disease-classification-projects-main\src\cnnClassifier\config\configuration.py", line 104, in get_evaluation_config
-    eval_config = EvaluationConfig(
-TypeError: EvaluationConfig.__init__() got an unexpected keyword argument 'mlflow_uri'
-[2023-07-26 04:07:24,759: INFO: utils: NumExpr defaulting to 4 threads.]
-[2023-07-26 04:07:25,996: INFO: stage_04_evaluation: *******************]
-[2023-07-26 04:07:25,996: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
-[2023-07-26 04:07:26,005: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 04:07:26,010: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 04:07:26,013: INFO: common: created directory at: artifacts]
-[2023-07-26 04:08:04,527: INFO: common: json file saved at: scores.json]
-[2023-07-26 04:08:04,534: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
-
-x==========x]
-[2023-07-26 04:08:27,157: INFO: utils: NumExpr defaulting to 4 threads.]
-[2023-07-26 04:08:28,350: INFO: stage_04_evaluation: *******************]
-[2023-07-26 04:08:28,350: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
-[2023-07-26 04:08:28,357: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2023-07-26 04:08:28,364: INFO: common: yaml file: params.yaml loaded successfully]
-[2023-07-26 04:08:28,366: INFO: common: created directory at: artifacts]
-[2023-07-26 04:09:06,745: INFO: common: json file saved at: scores.json]
-[2023-07-26 04:09:06,756: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
-
-x==========x]
+[2023-10-21 17:30:43,186: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 17:30:43,193: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 17:30:43,197: INFO: common: created directory at: artifacts]
+[2023-10-21 17:30:43,201: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-10-21 17:30:44,775: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-21 17:31:11,593: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 17:31:11,605: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 17:31:11,608: INFO: common: created directory at: artifacts]
+[2023-10-21 17:31:11,618: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-10-21 17:31:11,621: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-10-21 17:32:20,400: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 17:32:20,407: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 17:32:20,411: INFO: common: created directory at: artifacts]
+[2023-10-21 17:32:20,414: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-10-21 17:32:20,418: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-10-21 17:32:24,115: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 17:32:24,122: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 17:32:24,124: INFO: common: created directory at: artifacts]
+[2023-10-21 17:32:24,126: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-10-21 17:32:24,128: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-10-21 17:34:41,824: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 17:34:41,830: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 17:34:41,832: INFO: common: created directory at: artifacts]
+[2023-10-21 17:34:41,835: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-10-21 17:34:41,839: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
